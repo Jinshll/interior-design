@@ -1,0 +1,55 @@
+body,
+html {
+    /* 確保螢幕被填滿 */
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url(header-sf.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #5f302c;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #ffdc67;
+    border-color: #efb918;
+}
+
+.btn-primary:hover {
+    background-color: #d12e6a;
+    border-color: darkred;
+    border-width: 4px;
+}
+
+.btn-primary:active {
+    background-color: #d12e6a;
+    border-color: darkred;
+    border-width: 4px;
+}
+
+.btn-xl {
+    /* 自己取的 */
+    padding: 1rem 2rem;
+}
+
+hr {
+    border-color: #efb918;
+    border-width: 3px;
+    max-width: 65px;
+}
+
+.buffer {
+    height: 3rem;
+}
